@@ -1,0 +1,10 @@
+stable-worldmodel[train,env]
+torch
+torchvision
+numpy
+scipy
+scikit-learn
+matplotlib
+pandas
+huggingface_hub
+gdown

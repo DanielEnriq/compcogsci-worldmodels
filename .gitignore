@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Local envs
+.venv/
+venv/
+.env
+
+# Data/checkpoints should live on Google Drive, not GitHub
+data/*
+checkpoints/*
+results/raw/*
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.npy
+*.npz
+*.pkl
+
+# Keep folder placeholders
+!data/.gitkeep
+!checkpoints/.gitkeep
+!results/raw/.gitkeep
+
+# LaTeX artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS
+.DS_Store
